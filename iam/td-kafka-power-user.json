@@ -1,0 +1,26 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "MyKafkaAdmin",
+            "Effect": "Allow",
+            "Action": [
+                "kafka:Describe*",
+                "kafka:Get*",
+                "kafka:List*",
+                "kafka:Update*",
+                "kafka:Delete*",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeSecurityGroups",
+                "kms:DescribeKey",
+                "logs:GetLogDelivery",
+                "logs:ListLogDeliveries",
+                "S3:GetBucketPolicy",
+                "logs:DescribeResourcePolicies",
+                "logs:DescribeLogGroups"
+            ],
+            "Resource": "arn:aws:kafka:us-west-2:012345678910:cluster/*"
+        }
+    ]
+}
