@@ -34,7 +34,7 @@
 ## Kafka Client tools
 - kafka client and requisite client-scripts
   - MacOS
-    - `brew kafka install`
+    - `brew install kafka`
 - GUI: **Not**-**free** Kafka Tool: http://www.kafkatool.com
 - kafkacat: (brew install kafkacat) or https://docs.confluent.io/current/app-development/kafkacat-usage.html
 
