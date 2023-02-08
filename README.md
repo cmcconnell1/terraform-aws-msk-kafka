@@ -1,4 +1,4 @@
-# Ephemeral Dev/Test AWK MSK Cluster
+# Ephemeral Dev/Test AWS MSK Cluster
 
 ## TL;DR
 - The examples on this doc are from ephemeral Dev/test cluster and are subject to change at any time.
